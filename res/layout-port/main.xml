@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical"
+	android:baselineAligned="false" android:gravity="center_horizontal">
+
+	<LinearLayout android:id="@+id/topLayout"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_weight="1" android:baselineAligned="false"
+		android:gravity="center_horizontal" android:orientation="vertical">
+
+		<ImageView
+		    android:id="@+id/locationPhoto"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:scaleType="fitCenter"
+		    android:adjustViewBounds="true"
+		    android:contentDescription="@string/homescreen_mainimage_cd"
+		    android:src="@drawable/belfast_background" />
+
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/bottomLayout"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_weight="1" android:baselineAligned="false" android:paddingTop="2dp"
+		android:gravity="top|center_horizontal" android:orientation="vertical">
+
+		<LinearLayout android:id="@+id/topButtonRow"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="1" android:gravity="top|center_horizontal"
+			android:paddingBottom="2dp" android:paddingTop="1dp">
+
+			<ImageView android:id="@+id/delegatesButton"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_weight="1" android:adjustViewBounds="true"
+				android:scaleType="fitCenter" android:src="@drawable/delegates_button" />
+
+			<ImageView android:id="@+id/itineraryButton"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_weight="1" android:adjustViewBounds="true"
+				android:scaleType="fitCenter" android:src="@drawable/itinerary_button" />
+
+			<ImageView android:id="@+id/mapButton"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_weight="1" android:adjustViewBounds="true"
+				android:scaleType="fitCenter" android:src="@drawable/map_button" />
+		</LinearLayout>
+
+		<LinearLayout android:id="@+id/bottomButtonRow"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="1" android:gravity="top|center_horizontal"
+			android:paddingBottom="2dp">
+
+			<ImageView android:id="@+id/socialButton"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_weight="1" android:adjustViewBounds="true"
+				android:scaleType="fitCenter" android:src="@drawable/social_button" />
+
+			<ImageView android:id="@+id/webButton"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_weight="1" android:adjustViewBounds="true"
+				android:scaleType="fitCenter" android:src="@drawable/web_button" />
+
+			<ImageView android:id="@+id/phoneButton"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_weight="1" android:adjustViewBounds="true"
+				android:scaleType="fitCenter" android:src="@drawable/phone_button" />
+		</LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>

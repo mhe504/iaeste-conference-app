@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IAESTE AC 2013</string>
+    
+    <string name="security_footertext">The password can be obtained from any organiser</string>
+    <string name="security_passwordtitle">Password:</string>
+    <string name="security_continuebuttontext">Continue &gt;&gt;</string>
+    <string name="security_imagedescription">Connect 2012 Logo</string>
+    
+    <string name="facebook_titletext">facebook.com/Connect2012</string>
+    <string name="facebook_buttontext">View in Browser</string>
+    
+    <string name="dayx_daystarttime">09:00</string>
+    <string name="day1_activitylabel1">Arrivals</string>
+    <string name="day1_ppaddress_title">Address</string>
+    <string name="day1_ppaddress">Paddy\'s Palace\n68 Lisburn Road\nBelfast</string>
+    <string name="day1_activitytime2">19:00</string>
+    <string name="day1_activitylabel2">Whiskey Tasting: The Hudson Bar</string>
+    <string name="day1_activitytime3">21:00+</string>
+    <string name="day1_activitylabel3">Pub: Laverys</string>
+    <string name="day1_directionsbuttontext">Directions</string>
+    
+    <string name="day2_activitytitle1">Registration</string>
+    <string name="day2_activitytime2">10:00</string>
+    <string name="day2_activitytitle2">Session Choice:</string>
+    <string name="day2_sessions">1.Technology in LCs\n2.Newbie Training\n3.Networking Game</string>
+    <string name="day2_activitytime3">12:00</string>
+    <string name="day2_activitytitle3">Lunch</string>
+    <string name="day2_activitytime4">13:00</string>
+    <string name="day2_activitytitle4">Tour of QUB</string>
+    <string name="day2_activitytime5">14:00</string>
+    <string name="day2_activitytitle5">Session Choice:</string>
+    <string name="day2_sessions2">4.Finance\n5.Alumni Network\n6.Making an IAESTE Video</string>
+    <string name="day2_activitytime6">16:00</string>
+    <string name="day2_activitytitle6">Belfast Challenge</string>
+    <string name="day2_activitytime7">19:30</string>
+    <string name="day2_activitytitle7">Conference Dinner: Europa Hotel</string>
+    <string name="day2_activitytime8">21:00+</string>
+    <string name="day2_activitytitle8">Pub: Eglantine Inn</string>
+    
+    <string name="day3_activitytime1">10:00</string>
+    <string name="day3_activitytitle1">Session Choice:</string>
+    <string name="day3_sessions">7.IAESTE Advertising\n8.IAESTE Dance\n9.Website Design</string>
+    <string name="day3_activitytime2">12:00</string>
+    <string name="day3_activitytitle2">Lunch</string>
+    <string name="day3_activitytime3">13:00</string>
+    <string name="day3_activitytitle3">Invited Speaker</string>
+    <string name="day3_activitytime4">14:00</string>
+    <string name="day3_activitytitle4">Session Choice:</string>
+    <string name="day3_sessions2">10.Soccer Match\n11.Summer Reception Planning\n12.Connect Planning</string>
+    <string name="day3_activitytime5">16:00</string>
+    <string name="day3_activitytitle5">Free Time</string>
+    <string name="day3_activitytime6">19:00</string>
+    <string name="day3_activitytitle6">International Evening: The Space (Student\'s Union)</string>
+    <string name="day3_activitytime7">21:00+</string>
+    <string name="day3_activitytitle7">Pub: Students Union</string>
+    
+    <string name="day4_activitytime1">11:00</string>
+    <string name="day4_activitytitle1">Black Taxi Tour</string>
+    <string name="day4_activitytime2">13:00</string>
+    <string name="day4_activitytitle2">Lunch</string>
+    <string name="day4_activitytime3">14:00</string>
+    <string name="day4_activitytitle3">The Titanic Experience</string>
+    <string name="day4_activitytime4">17:00</string>
+    <string name="day4_activitytitle4">Home to change</string>
+    <string name="day4_activitytime5">19:00</string>
+    <string name="day4_activitytitle5">Dinner: Laverys</string>
+    <string name="day4_activitytime6">21:00+</string>
+    <string name="day4_activitytitle6">Club: Laverys</string>
+    
+    <string name="day5_title1">Option 1 : N. Ireland</string>
+    <string name="day5_title2">Option 2 : Rep. of Ireland</string>
+    <string name="day5_activitytime1">10:00</string>
+    <string name="day5_activitytitle1">North Coast</string>
+    <string name="day5_activitytime2">13:00</string>
+    <string name="day5_activitytitle2">Lunch Stop</string>
+    <string name="day5_activitytime3">14:00</string>
+    <string name="day5_activitytitle3">Giant\'s Causeway</string>
+    <string name="day5_activitytime4">10:00</string>
+    <string name="day5_activitytitle4">North Coast</string>
+    <string name="day5_activitytime5">19:00</string>
+    <string name="day5_activitytitle5">Dinner: Wetherspoons</string>
+    <string name="day5_activitytime6">21:00+</string>
+    <string name="day5_activitytitle6">Pub: El Divino</string>
+    <string name="day5_activitytime7">10:00</string>
+    <string name="day5_activitytitle7">Train to Dublin</string>
+    <string name="day5_activitytime8">13:00</string>
+    <string name="day5_activitytitle8">Dublin Walking Tour</string>
+    <string name="day5_activitytime9">14:30</string>
+    <string name="day5_activitytitle9">Choice of Museums</string>
+    <string name="day5_activitytime10">19:00</string>
+    <string name="day5_activitytitle10">Dinner: Porter House</string>
+    <string name="day5_activitytime11">21:00+</string>
+    <string name="day5_activitytitle11">Pub: Dicey Rileys</string>
+    
+    <string name="directions_title">Directions to the Hostel</string>
+    <string name="directions_step1">From the Europa Bus Station (15 mins.)</string>
+    <string name="directions_step2">1. Exit the Bus Station through the Great Northern Mall (Main Entrance). You will see two statues of women directly in front of you.</string>
+    <string name="directions_step3">2. Turn right and continue south down Great Victoria St towards Shaftesbury Square.</string>
+    <string name="directions_step4">3. At Shaftesbury Square, continue forward past KFC (you will also see Laverys bar on the left). IGNORE YOUTH HOSTEL SIGN! :D</string>
+    <string name="directions_step5">4. When you reach a fork in the road, take the right-hand way onto Lisburn Rd (you will see Dominos Pizza a short distance in front).</string>
+    <string name="directions_step6">5. Continue walking for 5–10mins, Paddy\'s Palace is the building on the left with the green door, 68 Lisburn Road (see the photo below).</string>
+    <string name="directions_step7">\nIf you arrive after 9pm, ring the doorbell!\n</string>	
+    <string name="directions_buttontext">Show in Google Maps</string>
+    <string name="directions_pp_image_cd">Paddy\'s Palace Belfast Photo</string>    
+    <string name="directions_ppimagefootertext">Tap to enlarge</string>
+    
+    <string name="phonenumbers_organisertitle">Conference Manager</string>
+    <string name="phonenumbers_organisername1">Melissa Catterson</string>
+    <string name="phonenumbers_organiserphone1">+44 776 9877 848</string>
+    <string name="phonenumbers_callbuttontext">Call</string>
+    <string name="phonenumbers_emergencyservices">Emergency Services</string>
+    <string name="phonenumbers_emergencyphone">Fire/Ambulance/Police : 999</string>
+    <string name="phonenumbers_taxititle">Alumni Conference Manager</string>
+    <string name="phonenumbers_taxi1title">Bruce Mehlmann-Wicks</string>
+    <string name="phonenumbers_taxi1phone">+44 123 1234 123</string>
+    <string name="phonenumbers_lcMainTitle">Local Committee Contact</string>
+    <string name="phonenumbers_lcTitle">Jonny Milliken</string>
+    <string name="phonenumbers_lcPhone">+44 788 2346 974</string>
+    
+    <string name="maps_markertitle">Marker:</string>
+    <string name="maps_hidelabels_button">Hide Labels</string>
+    <string name="maps_findinglocation">Finding your location…</string>
+    <string name="maps_centrelocationbutton">Centre</string>
+    <string name="maps_directionsbutton">View Directions</string>
+    <string name="homescreen_mainimage_cd">An Image of Belfast, including the IAESTE and British Council logos.</string>
+    <string name="bcouncil_ni">\@BCouncil_NI</string>
+    
+</resources>

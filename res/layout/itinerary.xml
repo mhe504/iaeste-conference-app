@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#00a6e3" >
+
+        <ImageView
+            android:id="@+id/imgView_LeftArrow"
+            android:layout_width="42dp"
+            android:layout_height="37dp"
+            android:visibility="invisible"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:adjustViewBounds="true"
+            android:paddingBottom="7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/left_arrow" />
+
+        <TextView
+            android:id="@+id/dayText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Day 1"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgView_RightArrow"
+            android:layout_width="42dp"
+            android:layout_height="37dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="7dp"
+            android:adjustViewBounds="true"
+            android:paddingBottom="7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/right_arrow" />
+    </RelativeLayout>
+    
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp"
+        android:background="#00a6e3"
+        android:paddingTop="3dp" 
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/markerTextView"
+            android:layout_width="94dp"
+            android:paddingLeft="2dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/maps_markertitle"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF" >
+        </TextView>
+
+        <Spinner
+            android:id="@+id/markerSpinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+        </Spinner>
+    </LinearLayout>
+
+    <org.osmdroid.views.MapView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:layout_above="@+id/footerLayout"
+         android:layout_below="@+id/headerLayout"
+         />
+
+    <LinearLayout
+        android:id="@+id/footerLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+       android:orientation="horizontal"
+       android:layout_alignParentBottom="true"
+       android:background="#000" >
+
+        <Button
+            android:id="@+id/hideButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|left"
+            android:text="@string/maps_hidelabels_button" />
+        
+       <Button
+            android:id="@+id/directionsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|left"
+            android:text="@string/maps_directionsbutton"
+            android:visibility="gone"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/footerRight"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:gravity="right">
+
+            <TextView
+                android:id="@+id/locationTextView"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="right"
+                android:paddingBottom="3dp"
+                android:text="@string/maps_findinglocation"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Button
+                android:id="@+id/centreButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:text="@string/maps_centrelocationbutton"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
