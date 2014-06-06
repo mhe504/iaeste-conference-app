@@ -107,16 +107,16 @@
     
     <string name="phonenumbers_organisertitle">Conference Manager</string>
     <string name="phonenumbers_organisername1">Melissa Catterson</string>
-    <string name="phonenumbers_organiserphone1">+44 776 9877 848</string>
+    <string name="phonenumbers_organiserphone1">+44 000 0000 00</string>
     <string name="phonenumbers_callbuttontext">Call</string>
     <string name="phonenumbers_emergencyservices">Emergency Services</string>
     <string name="phonenumbers_emergencyphone">Fire/Ambulance/Police : 999</string>
     <string name="phonenumbers_taxititle">Alumni Conference Manager</string>
     <string name="phonenumbers_taxi1title">Bruce Mehlmann-Wicks</string>
-    <string name="phonenumbers_taxi1phone">+44 123 1234 123</string>
+    <string name="phonenumbers_taxi1phone">+44 000 0000 00</string>
     <string name="phonenumbers_lcMainTitle">Local Committee Contact</string>
     <string name="phonenumbers_lcTitle">Jonny Milliken</string>
-    <string name="phonenumbers_lcPhone">+44 788 2346 974</string>
+    <string name="phonenumbers_lcPhone">+44 000 0000 00</string>
     
     <string name="maps_markertitle">Marker:</string>
     <string name="maps_hidelabels_button">Hide Labels</string>
