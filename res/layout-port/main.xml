@@ -15,7 +15,7 @@
 		    android:scaleType="fitCenter"
 		    android:adjustViewBounds="true"
 		    android:contentDescription="@string/homescreen_mainimage_cd"
-		    android:src="@drawable/belfast_background" />
+		    android:src="@drawable/background1" />
 
 	</LinearLayout>
 

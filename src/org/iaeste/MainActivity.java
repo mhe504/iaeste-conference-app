@@ -257,30 +257,26 @@ public class MainActivity extends Activity {
 		switch (imageNo) {
 		case 0:
 			locationPhoto.setImageDrawable(getResources().getDrawable(
-					R.drawable.belfast_background));
+					R.drawable.background1));
 			break;
 		case 1:
 			locationPhoto.setImageDrawable(getResources().getDrawable(
-					R.drawable.queens_background));
+					R.drawable.background2));
 			break;
 		case 2:
 			locationPhoto.setImageDrawable(getResources().getDrawable(
-					R.drawable.northcoast_background));
+					R.drawable.background3));
 			break;
 		case 3:
 			locationPhoto.setImageDrawable(getResources().getDrawable(
-					R.drawable.titanic_background));
+					R.drawable.background4));
 			break;
 		case 4:
 			locationPhoto.setImageDrawable(getResources().getDrawable(
-					R.drawable.dmc_background));
+					R.drawable.background5));
 			break;
-		case 5:
-			locationPhoto.setImageDrawable(getResources().getDrawable(
-					R.drawable.donegal_background));
 		}
-
-		if (imageNo < 5) {
+		if (imageNo < 4) {
 			imageNo++;
 		} else {
 			imageNo = 0;

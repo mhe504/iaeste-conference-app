@@ -26,15 +26,6 @@ public class PhoneNumbersActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.phone_numbers);
 
-		final Button acCallButton = (Button) findViewById(R.id.acCallButton);
-		acCallButton.setOnClickListener(new View.OnClickListener() {
-
-			public void onClick(View v) {
-				TextView numberTextView = (TextView) findViewById(R.id.acPhone);
-				startCall(numberTextView.getText().toString());
-			}
-		});
-
 		final Button cmCallButton = (Button) findViewById(R.id.cmCallButton);
 		cmCallButton.setOnClickListener(new View.OnClickListener() {
 
@@ -44,14 +35,6 @@ public class PhoneNumbersActivity extends Activity {
 			}
 		});
 
-		final Button taxi1CallButton = (Button) findViewById(R.id.acCallButton);
-		taxi1CallButton.setOnClickListener(new View.OnClickListener() {
-
-			public void onClick(View v) {
-				TextView numberTextView = (TextView) findViewById(R.id.acPhone);
-				startCall(numberTextView.getText().toString());
-			}
-		});
 
 		final Button emergencyCallButton = (Button) findViewById(R.id.emergencyServicesCallButton);
 		emergencyCallButton.setOnClickListener(new View.OnClickListener() {
