@@ -10,7 +10,7 @@
         android:layout_alignParentTop="true"
         android:gravity="center"
         android:paddingTop="2dp"
-        android:text="Friday 18 January"
+        android:text="@string/day1_date"
         android:textColor="#FFFFFF"
         android:textSize="21sp"
         android:textStyle="bold|italic" />
@@ -30,7 +30,7 @@
                 android:paddingRight="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="08.00 – 20.00"
+                android:text="@string/day1_activitytime1"
                 android:textColor="#00a6e3"
                 android:textSize="18sp" />
 
@@ -38,7 +38,7 @@
                 android:id="@+id/des1"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text="Arrival of delegates"
+                android:text="@string/day1_activitylabel1"
                 android:textColor="#FFFFFF"
                 android:textSize="18sp" />
         </TableRow>
@@ -52,7 +52,7 @@
                 android:id="@+id/time2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="17.00 – 18.00"
+                android:text="@string/day1_activitytime2"
                 android:textColor="#00a6e3"
                 android:textSize="18sp" />
 
@@ -60,7 +60,7 @@
                 android:id="@+id/des2"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text="Meet and Greet Session"
+                android:text="@string/day1_activitylabel2"
                 android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:width="0dip" />
@@ -75,7 +75,7 @@
                 android:id="@+id/time3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="19.30"
+                android:text="@string/day1_activitytime3"
                 android:textColor="#00a6e3"
                 android:textSize="18sp" />
 
@@ -84,7 +84,31 @@
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:layout_width="fill_parent"
-                android:text="Housewarming Party (Smart attire)"
+                android:text="@string/day1_activitylabel3"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:width="0dip" />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/time4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/day1_activitytime4"
+                android:textColor="#00a6e3"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/des4"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:text="@string/day1_activitylabel4"
                 android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:width="0dip" />

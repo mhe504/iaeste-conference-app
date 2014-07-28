@@ -175,33 +175,6 @@ public class ItineraryActivity extends Activity {
 			    layoutBottom = (RelativeLayout) inflate.inflate(R.layout.itinerary_d5, null);
 			    layoutMain.addView(layoutBottom, relParam);
 			break;
-			case 6: 
-				layoutMain.removeAllViews();
-			    layoutMain.addView(layoutTop, relParam);
-			    ((TextView)layoutTop.findViewById(R.id.dayText)).setText("Day 6");
-				((ImageView)layoutTop.findViewById(R.id.imgView_LeftArrow)).setVisibility(ImageView.VISIBLE);
-				((ImageView)layoutTop.findViewById(R.id.imgView_RightArrow)).setVisibility(ImageView.VISIBLE);
-			    layoutBottom = (RelativeLayout) inflate.inflate(R.layout.itinerary_d6, null);
-			    layoutMain.addView(layoutBottom, relParam);
-			break;
-			case 7:
-				layoutMain.removeAllViews();
-				((ImageView)layoutTop.findViewById(R.id.imgView_LeftArrow)).setVisibility(ImageView.VISIBLE);
-				((ImageView)layoutTop.findViewById(R.id.imgView_RightArrow)).setVisibility(ImageView.VISIBLE);
-				((TextView)layoutTop.findViewById(R.id.dayText)).setText("Day 7");
-			    layoutMain.addView(layoutTop, relParam);
-			    layoutBottom = (RelativeLayout) inflate.inflate(R.layout.itinerary_d7, null);
-			    layoutMain.addView(layoutBottom, relParam);
-			break;
-			case 8:
-				layoutMain.removeAllViews();
-				((ImageView)layoutTop.findViewById(R.id.imgView_LeftArrow)).setVisibility(ImageView.VISIBLE);
-				((ImageView)layoutTop.findViewById(R.id.imgView_RightArrow)).setVisibility(ImageView.INVISIBLE);
-				((TextView)layoutTop.findViewById(R.id.dayText)).setText("Day 8");
-			    layoutMain.addView(layoutTop, relParam);
-			    layoutBottom = (RelativeLayout) inflate.inflate(R.layout.itinerary_d8, null);
-			    layoutMain.addView(layoutBottom, relParam);
-			break;
 		}
 	}
 	

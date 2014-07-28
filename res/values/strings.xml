@@ -10,10 +10,9 @@
     <string name="facebook_titletext">facebook.com/iaesteLEAP</string>
     <string name="facebook_buttontext">View in Browser</string>
     
-    <string name="dayx_daystarttime">12:00</string>
+    <string name="day1_date">Wed 10 September</string>
+    <string name="day1_activitytime1">12:00</string>
     <string name="day1_activitylabel1">Arrivals</string>
-    <string name="day1_ppaddress_title">Address</string>
-    <string name="day1_ppaddress">Hostel Artur-Janov nad Nisou \n Malý Semerink 1016 \n Janov nad nisou \n 468 11</string>
     <string name="day1_activitytime2">18:00</string>
     <string name="day1_activitylabel2">Dinner</string>
     <string name="day1_activitytime3">19:00</string>
@@ -21,7 +20,10 @@
     <string name="day1_activitytime4">21:30</string>
     <string name="day1_activitylabel4">Team building and fun</string>
     <string name="day1_directionsbuttontext">Directions</string>
+    <string name="day1_ppaddress_title">Address</string>
+    <string name="day1_ppaddress">Hostel Artur-Janov nad Nisou \n Malý Semerink 1016 \n Janov nad nisou \n 468 11</string>
     
+    <string name="day2_date">Thu 11 September</string>
     <string name="day2_activitytime1">08:00</string>
     <string name="day2_activitytitle1">Breakfast</string>
     <string name="day2_activitytime2">09:00</string>
@@ -41,6 +43,7 @@
     <string name="day2_activitytime9">19:30</string>
     <string name="day2_activitytitle9">Training 2</string>
     
+    <string name="day3_date">Fri 12 September</string>
     <string name="day3_activitytime1">08:00</string>
     <string name="day3_activitytitle1">Breakfast</string>
     <string name="day3_activitytime2">09:00</string>
@@ -60,6 +63,7 @@
     <string name="day3_activitytime9">19:30</string>
     <string name="day3_activitytitle9">WG</string>
     
+    <string name="day4_date">Sat 13 September</string>
     <string name="day4_activitytime1">08:00</string>
     <string name="day4_activitytitle1">Breakfast</string>
     <string name="day4_activitytime2">09:00</string>
@@ -79,6 +83,7 @@
     <string name="day4_activitytime9">19:30</string>
     <string name="day4_activitytitle9">FUN</string>
     
+    <string name="day5_date">Sun 14 September</string>
     <string name="day5_activitytime1">09:00</string>
     <string name="day5_activitytitle1">Breakfast</string>
     <string name="day5_activitytime2">10:00</string>
