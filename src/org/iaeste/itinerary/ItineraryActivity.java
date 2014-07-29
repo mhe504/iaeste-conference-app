@@ -53,40 +53,28 @@ public class ItineraryActivity extends Activity {
 	    String date = new SimpleDateFormat("d").format(new Date());
 	    String month = new SimpleDateFormat("M").format(new Date());
 
-	    if (month.equals("1"))
+	    if (month.equals("9"))
 	    {
 		    switch (Integer.parseInt(date))
 		    {
-		    	case 18:
+		    	case 10:
 		    		currDay = 1;
 		    		changeDay(layoutMain,layoutTop,relParam,inflate);
 		    		break;
-		    	case 19:
+		    	case 11:
 		    		currDay = 2;
 		    		changeDay(layoutMain,layoutTop,relParam,inflate);
 		    		break;
-		    	case 20:
+		    	case 12:
 		    		currDay = 3;
 		    		changeDay(layoutMain,layoutTop,relParam,inflate);
 		    		break;
-		    	case 21:
+		    	case 13:
 		    		currDay = 4;
 		    		changeDay(layoutMain,layoutTop,relParam,inflate);
 		    		break;
-		    	case 22:
+		    	case 14:
 		    		currDay = 5;
-		    		changeDay(layoutMain,layoutTop,relParam,inflate);
-		    		break;
-		    	case 23:
-		    		currDay = 6;
-		    		changeDay(layoutMain,layoutTop,relParam,inflate);
-		    		break;
-		    	case 24:
-		    		currDay = 7;
-		    		changeDay(layoutMain,layoutTop,relParam,inflate);
-		    		break;
-		    	case 25:
-		    		currDay = 8;
 		    		changeDay(layoutMain,layoutTop,relParam,inflate);
 		    		break;
 		    }
@@ -99,7 +87,7 @@ public class ItineraryActivity extends Activity {
 		final ImageView rightButton = (ImageView) layoutTop.findViewById(R.id.imgView_RightArrow);
 		rightButton.setOnTouchListener(new View.OnTouchListener() {
 			public boolean onTouch(View v, MotionEvent event) {
-				if (currDay < 8)
+				if (currDay < 5)
 				{
 					currDay++;
 				}
@@ -171,7 +159,7 @@ public class ItineraryActivity extends Activity {
 			    layoutMain.addView(layoutTop, relParam);
 			    ((TextView)layoutTop.findViewById(R.id.dayText)).setText("Day 5");
 				((ImageView)layoutTop.findViewById(R.id.imgView_LeftArrow)).setVisibility(ImageView.VISIBLE);
-				((ImageView)layoutTop.findViewById(R.id.imgView_RightArrow)).setVisibility(ImageView.VISIBLE);
+				((ImageView)layoutTop.findViewById(R.id.imgView_RightArrow)).setVisibility(ImageView.INVISIBLE);
 			    layoutBottom = (RelativeLayout) inflate.inflate(R.layout.itinerary_d5, null);
 			    layoutMain.addView(layoutBottom, relParam);
 			break;

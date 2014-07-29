@@ -8,7 +8,7 @@ import org.iaeste.R;
 
 public class FacebookActivity extends Activity {
 
-	private final String FB_PAGE_URL = "http://m.facebook.com/iaesteac2013";
+	private final String FB_PAGE_URL = "http://m.facebook.com/iaesteLEAP";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

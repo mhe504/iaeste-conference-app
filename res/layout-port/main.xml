@@ -8,9 +8,8 @@
 		android:layout_weight="1" android:baselineAligned="false"
 		android:gravity="center_horizontal" android:orientation="vertical"
 		android:background="@drawable/background1">
-
+	
 		<ImageView
-		    android:id="@+id/locationPhoto"
 		    android:layout_width="200dp"
 		    android:layout_marginTop="25dp"
 		    android:layout_height="wrap_content"

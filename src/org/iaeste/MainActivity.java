@@ -7,6 +7,11 @@ package org.iaeste;
 
 import java.util.Calendar;
 
+import org.iaeste.activities.delegates.DelegatesCountryActivity;
+import org.iaeste.itinerary.ItineraryActivity;
+import org.iaeste.mapping.MapsActivity;
+import org.iaeste.social.FacebookActivity;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
@@ -21,15 +26,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-
-import org.iaeste.activities.delegates.DelegatesCountryActivity;
-import org.iaeste.itinerary.ItineraryActivity;
-import org.iaeste.mapping.MapsActivity;
-import org.iaeste.social.SocialTabControl;
+import android.widget.LinearLayout;
 
 public class MainActivity extends Activity {
 
-	private static String SITE_URL = "http://www.britishcouncil.org/iaeste-annual-conference-2013.htm";
+	private static String SITE_URL = "http://www.iaeste.eu/leap";
 	private static String APP_PASSWORD = "Titanic13";
 	
 	protected static boolean pass = false;
@@ -151,7 +152,7 @@ public class MainActivity extends Activity {
 				if (hideNetWarning)
 				{
 					Intent myIntent = new Intent(MainActivity.this,
-							SocialTabControl.class);
+							FacebookActivity.class);
 					MainActivity.this.startActivity(myIntent);
 				} else {
 					AlertDialog.Builder alertbox = new AlertDialog.Builder(v
@@ -166,7 +167,7 @@ public class MainActivity extends Activity {
 
 									Intent myIntent = new Intent(
 											MainActivity.this,
-											SocialTabControl.class);
+											FacebookActivity.class);
 									MainActivity.this.startActivity(myIntent);
 
 							        SharedPreferences settings = getPreferences(Context.MODE_WORLD_READABLE);
@@ -250,29 +251,29 @@ public class MainActivity extends Activity {
 	}
 
 	private void showLocationPhoto() {
-		final ImageView locationPhoto = (ImageView) findViewById(R.id.locationPhoto);
+		final LinearLayout locationPhoto = (LinearLayout) findViewById(R.id.topLayout);
 
 		int imageNo = getPreferences(MODE_PRIVATE).getInt("imageNo", 0);
 
 		switch (imageNo) {
 		case 0:
-			locationPhoto.setBackground(getResources().getDrawable(
+			locationPhoto.setBackgroundDrawable(getResources().getDrawable(
 					R.drawable.background1));
 			break;
 		case 1:
-			locationPhoto.setBackground(getResources().getDrawable(
+			locationPhoto.setBackgroundDrawable(getResources().getDrawable(
 					R.drawable.background2));
 			break;
 		case 2:
-			locationPhoto.setBackground(getResources().getDrawable(
+			locationPhoto.setBackgroundDrawable(getResources().getDrawable(
 					R.drawable.background3));
 			break;
 		case 3:
-			locationPhoto.setBackground(getResources().getDrawable(
+			locationPhoto.setBackgroundDrawable(getResources().getDrawable(
 					R.drawable.background4));
 			break;
 		case 4:
-			locationPhoto.setBackground(getResources().getDrawable(
+			locationPhoto.setBackgroundDrawable(getResources().getDrawable(
 					R.drawable.background5));
 			break;
 		}
