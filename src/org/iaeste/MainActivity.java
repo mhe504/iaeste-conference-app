@@ -256,23 +256,23 @@ public class MainActivity extends Activity {
 
 		switch (imageNo) {
 		case 0:
-			locationPhoto.setImageDrawable(getResources().getDrawable(
+			locationPhoto.setBackground(getResources().getDrawable(
 					R.drawable.background1));
 			break;
 		case 1:
-			locationPhoto.setImageDrawable(getResources().getDrawable(
+			locationPhoto.setBackground(getResources().getDrawable(
 					R.drawable.background2));
 			break;
 		case 2:
-			locationPhoto.setImageDrawable(getResources().getDrawable(
+			locationPhoto.setBackground(getResources().getDrawable(
 					R.drawable.background3));
 			break;
 		case 3:
-			locationPhoto.setImageDrawable(getResources().getDrawable(
+			locationPhoto.setBackground(getResources().getDrawable(
 					R.drawable.background4));
 			break;
 		case 4:
-			locationPhoto.setImageDrawable(getResources().getDrawable(
+			locationPhoto.setBackground(getResources().getDrawable(
 					R.drawable.background5));
 			break;
 		}
