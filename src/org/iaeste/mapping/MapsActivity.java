@@ -42,8 +42,8 @@ public class MapsActivity extends Activity {
 	protected static final String PROVIDER_NAME = LocationManager.GPS_PROVIDER;
     private MapController osmViewController;
     private MapView osmView;
-    private double latitude = 54.584274484353536;
-    private double longitude = -5.93660831451416;
+    private double latitude = 50.780194;
+    private double longitude = 15.173639;
     private GeoPoint currentPosition;
     private LocationMarker myLocationOverlay;
     
@@ -265,30 +265,9 @@ public class MapsActivity extends Activity {
     {
     	markers = new LinkedList<PoiMarker>();
     	
-    	PoiMarker item = new PoiMarker(this, "Europa Bus Station", new GeoPoint(54.594339, -5.934554));
+    	PoiMarker item = new PoiMarker(this, "Hostel Artur-Janov nad Nisou ", new GeoPoint(50.780194, 15.173639));
     	markers.add(item);
-
-    	item = new PoiMarker(this, "Paddy's  Palace ", new GeoPoint(54.586146, -5.940170));
-    	markers.add(item);
-
-    	item = new PoiMarker(this, "Student's Union ", new GeoPoint(54.58452318010526, -5.936704874038696));
-    	markers.add(item);
-    	
-    	item = new PoiMarker(this, "Fithly McNastys ", new GeoPoint(54.59144874693254, -5.9330034255981445));
-    	markers.add(item);
-    	
-    	item = new PoiMarker(this, "Eglantine Inn  ", new GeoPoint(54.58034488999118, -5.938475131988525));
-    	markers.add(item);
-    	
-    	item = new PoiMarker(this, "Laverys     ", new GeoPoint(54.58881294286831, -5.934569835662842));
-    	markers.add(item);
-    	
-    	item = new PoiMarker(this, "Wetherspoons    ", new GeoPoint(54.593562240177754, -5.931565761566162));
-    	markers.add(item);
-    	
-    	item = new PoiMarker(this, "El Divino    ", new GeoPoint(54.59532754459013, -5.915687084197998));
-    	markers.add(item);
-    	
+   	
     	
     }
     
