@@ -53,7 +53,7 @@
 			<ImageView android:id="@+id/socialButton"
 				android:layout_width="wrap_content" android:layout_height="wrap_content"
 				android:layout_weight="1" android:adjustViewBounds="true"
-				android:scaleType="fitCenter" android:src="@drawable/social_button" />
+				android:scaleType="fitCenter" android:src="@drawable/facebook_button" />
 
 			<ImageView android:id="@+id/webButton"
 				android:layout_width="wrap_content" android:layout_height="wrap_content"

@@ -117,7 +117,7 @@
     <string name="phonenumbers_emergencyphone">Fire/Ambulance/Police : 112</string>
 
     
-    <string name="maps_markertitle">Marker:</string>
+    <string name="maps_markertitle">Local Map</string>
     <string name="maps_hidelabels_button">Hide Labels</string>
     <string name="maps_findinglocation">Finding your location…</string>
     <string name="maps_centrelocationbutton">Centre</string>
