@@ -5,9 +5,9 @@ This is an app intended for phones running Android 2.1 Eclair or later, which su
 
 Current conference
 --------------
-LEAP 2014
+- LEAP 2014
 
 Previous conferences
 --------------
-Annual Conference 2013
-Connect 2012
+- Annual Conference 2013
+- Connect 2012
