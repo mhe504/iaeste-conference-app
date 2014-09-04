@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.iaeste"
+    package="org.iaeste.leap"
     android:versionCode="2"
     android:versionName="1.2" >
 
@@ -33,7 +33,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="org.iaeste.itinerary.ItineraryActivity"
+            android:name="org.iaeste.leap.itinerary.ItineraryActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -108,7 +108,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="org.iaeste.social.SocialTabControl"
+            android:name="org.iaeste.leap.social.SocialTabControl"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
