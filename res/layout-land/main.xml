@@ -1,42 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	android:id="@+id/relativeLayout4" android:layout_width="wrap_content"
-	android:layout_height="wrap_content">
+    android:id="@+id/relativeLayout4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
 
-	<LinearLayout android:id="@+id/leftLayout"
-		android:layout_width="fill_parent" android:layout_height="fill_parent">
-		<LinearLayout android:orientation="vertical"
-			android:layout_height="fill_parent" android:id="@+id/topButtonRow"
-			android:gravity="center_horizontal" android:layout_width="wrap_content"
-			android:layout_weight="1" android:paddingLeft="5dp"
-			android:paddingRight="5dp">
-			<ImageView android:src="@drawable/itinerary_button" android:adjustViewBounds="true"
-				android:layout_height="wrap_content" android:layout_width="wrap_content"
-				android:id="@+id/itineraryButton" android:layout_weight="1" />
-			<ImageView android:src="@drawable/map_button" android:adjustViewBounds="true"
-				android:layout_height="wrap_content" android:layout_width="wrap_content"
-				android:id="@+id/mapButton" android:layout_weight="1" />
-			<ImageView android:src="@drawable/delegates_button" android:adjustViewBounds="true"
-				android:layout_height="wrap_content" android:layout_width="wrap_content"
-				android:id="@+id/delegatesButton" android:layout_weight="1" />
-		</LinearLayout>
-		<LinearLayout android:orientation="vertical"
-			android:layout_height="fill_parent" android:id="@+id/bottomButtonRow"
-			android:gravity="center" android:layout_width="wrap_content"
-			android:layout_weight="1" android:paddingRight="5dp">
-			<ImageView android:layout_height="wrap_content" android:adjustViewBounds="true"
-				android:layout_width="wrap_content" android:id="@+id/socialButton"
-				android:src="@drawable/facebook_button" android:layout_weight="1"/>
-			<ImageView android:layout_height="wrap_content" android:adjustViewBounds="true"
-				android:layout_width="wrap_content" android:id="@+id/webButton"
-				android:src="@drawable/web_button" android:layout_weight="1"/>
-			<ImageView android:src="@drawable/phone_button" android:adjustViewBounds="true"
-				android:layout_height="wrap_content" android:layout_width="wrap_content"
-				android:layout_weight="1" android:id="@+id/phoneButton" />
-		</LinearLayout>
-		<ImageView android:id="@+id/locationPhoto" android:layout_height="fill_parent"
-			android:layout_width="fill_parent" android:adjustViewBounds="true"
-			android:layout_weight="5" android:scaleType="fitXY"/>
-	</LinearLayout>
+    <LinearLayout
+        android:id="@+id/leftLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/topButtonRow"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <ImageView
+                android:id="@+id/itineraryButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/homescreen_itinerary_cd"
+                android:src="@drawable/itinerary_button" />
+
+            <ImageView
+                android:id="@+id/mapButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/homescreen_map_cd"
+                android:src="@drawable/map_button" />
+
+            <ImageView
+                android:id="@+id/delegatesButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/homescreen_delegates_cd"
+                android:src="@drawable/delegates_button" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bottomButtonRow"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingRight="5dp" >
+
+            <ImageView
+                android:id="@+id/socialButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/homescreen_facebook_cd"
+                android:src="@drawable/facebook_button" />
+
+            <ImageView
+                android:id="@+id/webButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/homescreen_website_cd"
+                android:src="@drawable/web_button" />
+
+            <ImageView
+                android:id="@+id/phoneButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/homescreen_phone_cd"
+                android:src="@drawable/phone_button" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/locationPhoto"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/homescreen_mainimage_cd"
+            android:scaleType="fitXY" />
+    </LinearLayout>
 
 </RelativeLayout>

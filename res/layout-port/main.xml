@@ -1,70 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical"
-	android:baselineAligned="false" android:gravity="center_horizontal">
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
 
-	<LinearLayout android:id="@+id/topLayout"
-		android:layout_width="fill_parent" android:layout_height="fill_parent"
-		android:layout_weight="1" android:baselineAligned="false"
-		android:gravity="center_horizontal" android:orientation="vertical"
-		android:background="@drawable/background1">
-	
-		<ImageView
-		    android:layout_width="200dp"
-		    android:layout_marginTop="25dp"
-		    android:layout_height="wrap_content"
-		    android:adjustViewBounds="true"
-		    android:contentDescription="@string/homescreen_mainimage_cd"
-		    android:src="@drawable/conf_logo" />
+    <LinearLayout
+        android:id="@+id/topLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/background1"
+        android:baselineAligned="false"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
 
-	</LinearLayout>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/homescreen_mainimage_cd"
+            android:src="@drawable/conf_logo" />
+    </LinearLayout>
 
-	<LinearLayout android:id="@+id/bottomLayout"
-		android:layout_width="fill_parent" android:layout_height="fill_parent"
-		android:layout_weight="1" android:baselineAligned="false" android:paddingTop="2dp"
-		android:gravity="top|center_horizontal" android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:gravity="top|center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="2dp" >
 
-		<LinearLayout android:id="@+id/topButtonRow"
-			android:layout_width="fill_parent" android:layout_height="wrap_content"
-			android:layout_weight="1" android:gravity="top|center_horizontal"
-			android:paddingBottom="2dp" android:paddingTop="1dp">
+        <LinearLayout
+            android:id="@+id/topButtonRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="top|center_horizontal"
+            android:paddingBottom="2dp"
+            android:paddingTop="1dp" >
 
-			<ImageView android:id="@+id/delegatesButton"
-				android:layout_width="wrap_content" android:layout_height="wrap_content"
-				android:layout_weight="1" android:adjustViewBounds="true"
-				android:scaleType="fitCenter" android:src="@drawable/delegates_button" />
+            <ImageView
+                android:id="@+id/delegatesButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/homescreen_delegates_cd"
+                android:scaleType="fitCenter"
+                android:src="@drawable/delegates_button" />
 
-			<ImageView android:id="@+id/itineraryButton"
-				android:layout_width="wrap_content" android:layout_height="wrap_content"
-				android:layout_weight="1" android:adjustViewBounds="true"
-				android:scaleType="fitCenter" android:src="@drawable/itinerary_button" />
+            <ImageView
+                android:id="@+id/itineraryButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/homescreen_itinerary_cd"
+                android:scaleType="fitCenter"
+                android:src="@drawable/itinerary_button" />
 
-			<ImageView android:id="@+id/mapButton"
-				android:layout_width="wrap_content" android:layout_height="wrap_content"
-				android:layout_weight="1" android:adjustViewBounds="true"
-				android:scaleType="fitCenter" android:src="@drawable/map_button" />
-		</LinearLayout>
+            <ImageView
+                android:id="@+id/mapButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/homescreen_map_cd"
+                android:scaleType="fitCenter"
+                android:src="@drawable/map_button" />
+        </LinearLayout>
 
-		<LinearLayout android:id="@+id/bottomButtonRow"
-			android:layout_width="fill_parent" android:layout_height="wrap_content"
-			android:layout_weight="1" android:gravity="top|center_horizontal"
-			android:paddingBottom="2dp">
+        <LinearLayout
+            android:id="@+id/bottomButtonRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="top|center_horizontal"
+            android:paddingBottom="2dp" >
 
-			<ImageView android:id="@+id/socialButton"
-				android:layout_width="wrap_content" android:layout_height="wrap_content"
-				android:layout_weight="1" android:adjustViewBounds="true"
-				android:scaleType="fitCenter" android:src="@drawable/facebook_button" />
+            <ImageView
+                android:id="@+id/socialButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/homescreen_facebook_cd"
+                android:scaleType="fitCenter"
+                android:src="@drawable/facebook_button" />
 
-			<ImageView android:id="@+id/webButton"
-				android:layout_width="wrap_content" android:layout_height="wrap_content"
-				android:layout_weight="1" android:adjustViewBounds="true"
-				android:scaleType="fitCenter" android:src="@drawable/web_button" />
+            <ImageView
+                android:id="@+id/webButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/homescreen_website_cd"
+                android:scaleType="fitCenter"
+                android:src="@drawable/web_button" />
 
-			<ImageView android:id="@+id/phoneButton"
-				android:layout_width="wrap_content" android:layout_height="wrap_content"
-				android:layout_weight="1" android:adjustViewBounds="true"
-				android:scaleType="fitCenter" android:src="@drawable/phone_button" />
-		</LinearLayout>
-	</LinearLayout>
+            <ImageView
+                android:id="@+id/phoneButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/homescreen_phone_cd"
+                android:scaleType="fitCenter"
+                android:src="@drawable/phone_button" />
+        </LinearLayout>
+    </LinearLayout>
 
 </LinearLayout>

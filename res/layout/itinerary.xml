@@ -14,21 +14,22 @@
             android:id="@+id/imgView_LeftArrow"
             android:layout_width="42dp"
             android:layout_height="37dp"
-            android:visibility="invisible"
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="7dp"
             android:adjustViewBounds="true"
+            android:contentDescription="@string/left_arrow"
             android:paddingBottom="7dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/left_arrow" />
+            android:src="@drawable/left_arrow"
+            android:visibility="invisible" />
 
         <TextView
             android:id="@+id/dayText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="Day 1"
+            android:text="@string/day1_date"
             android:textColor="#FFFFFF"
             android:textSize="32sp"
             android:textStyle="bold" />
@@ -41,9 +42,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginTop="7dp"
             android:adjustViewBounds="true"
+            android:contentDescription="@string/right_arrow"
             android:paddingBottom="7dp"
             android:scaleType="fitCenter"
             android:src="@drawable/right_arrow" />
     </RelativeLayout>
-    
+
 </RelativeLayout>

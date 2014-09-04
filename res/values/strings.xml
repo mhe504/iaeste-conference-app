@@ -19,9 +19,6 @@
     <string name="day1_activitylabel3">Weclome and Motivation</string>
     <string name="day1_activitytime4">21:30</string>
     <string name="day1_activitylabel4">Team building and fun</string>
-    <string name="day1_directionsbuttontext">Directions</string>
-    <string name="day1_ppaddress_title">Address</string>
-    <string name="day1_ppaddress">Hostel Artur-Janov nad Nisou \n Malý Semerink 1016 \n Janov nad nisou \n 468 11</string>
     
     <string name="day2_date">Thu 11 September</string>
     <string name="day2_activitytime1">08:00</string>
@@ -97,18 +94,7 @@
     <string name="day5_activitytime6">14:00</string>
     <string name="day5_activitytitle6">Packing/Leaving</string>
     
-    <string name="directions_title">Directions to the Hostel</string>
-    <string name="directions_step1">From the Europa Bus Station (15 mins.)</string>
-    <string name="directions_step2">1. Exit the Bus Station through the Great Northern Mall (Main Entrance). You will see two statues of women directly in front of you.</string>
-    <string name="directions_step3">2. Turn right and continue south down Great Victoria St towards Shaftesbury Square.</string>
-    <string name="directions_step4">3. At Shaftesbury Square, continue forward past KFC (you will also see Laverys bar on the left). IGNORE YOUTH HOSTEL SIGN! :D</string>
-    <string name="directions_step5">4. When you reach a fork in the road, take the right-hand way onto Lisburn Rd (you will see Dominos Pizza a short distance in front).</string>
-    <string name="directions_step6">5. Continue walking for 5–10mins, Paddy\'s Palace is the building on the left with the green door, 68 Lisburn Road (see the photo below).</string>
-    <string name="directions_step7">\nIf you arrive after 9pm, ring the doorbell!\n</string>	
-    <string name="directions_buttontext">Show in Google Maps</string>
-    <string name="directions_pp_image_cd">Paddy\'s Palace Belfast Photo</string>    
-    <string name="directions_ppimagefootertext">Tap to enlarge</string>
-    
+    <string name="phonenumbers_title">Phone Numbers</string>
     <string name="phonenumbers_organisertitle">Conference Organizer</string>
     <string name="phonenumbers_organisername1">Senta Vitkova</string>
     <string name="phonenumbers_organiserphone1">+420 725 240 941</string>
@@ -118,11 +104,21 @@
 
     
     <string name="maps_markertitle">Local Map</string>
-    <string name="maps_hidelabels_button">Hide Labels</string>
     <string name="maps_findinglocation">Finding your location…</string>
     <string name="maps_centrelocationbutton">Centre</string>
-    <string name="maps_directionsbutton">View Directions</string>
-    <string name="homescreen_mainimage_cd">An Image of Belfast, including the IAESTE and British Council logos.</string>
-    <string name="bcouncil_ni">\@BCouncil_NI</string>
+    
+	<string name="homescreen_mainimage_cd">An image of the conference location</string>
+    <string name="homescreen_phone_cd">Phone</string>
+    <string name="homescreen_website_cd">Website</string>
+    <string name="homescreen_facebook_cd">Facebook</string>
+    <string name="homescreen_delegates_cd">Delegates</string>
+    <string name="homescreen_map_cd">Map</string>
+    <string name="homescreen_itinerary_cd">Itinerary</string>
+    
+    <string name="delegates_title">Delegates List</string>
+    
+    <string name="right_arrow">></string>
+    
+    <string name="left_arrow">&lt;</string>
     
 </resources>
